@@ -1,3 +1,14 @@
+## What this Repo is for ?
+
+It contains source code for tutorial published at
+https://medium.com/@mansha99/the-backend-part-of-mnnn-stack-mongodb-nestjs-nextjs-and-nodejs-6bde9adfedd9
+
+### What it demonstrates?
+
+Getting started with MNNN Stack
+
+---
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>

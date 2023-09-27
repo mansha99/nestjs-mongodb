@@ -13,7 +13,6 @@ async function bootstrap() {
   setUpGlobalValidationPipe(app);
   app.useGlobalInterceptors(new ClassSerializerInterceptor(app.get(Reflector)));
   useContainer(app.select(AppModule), { fallbackOnErrors: true });
-
   await app.listen(3000);
 }
 /**
