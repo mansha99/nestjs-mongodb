@@ -11,8 +11,7 @@ import {
 } from '@nestjs/common';
 import { CreateEmpDto } from './dto/create-emp-dto';
 import { UpdateEmpDto } from './dto/update-emp-dto';
-import MongooseClassSerializerInterceptor from './interceptors/mongoose-model-serializer.ts';
-import { IdValidPipe } from './pipes/id-valid-pipe';
+import MongooseClassSerializerInterceptor from './serializers/mongoose-model-serializer.ts';
 import { EmpsService } from './emp.service';
 import { Emp } from './schemas/emp.schema';
 
